@@ -16,488 +16,701 @@ export default {
     ActividadController,
   },
   data: () => ({
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: require('@/assets/actividad/imagen5.png'),
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
-    },
     cuestionario: {
-      tema: 'Nombre del CF',
+      tema:
+        'Caracterización del visitante y comunicación en la atención turística',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> objetivo de la actividad	Evaluar la comprensión de los aprendices sobre los conceptos básicos relacionados con el turista, consumidor y cliente en el sector turístico, identificando los factores que influyen en el comportamiento de compra, las tipologías de clientes, los parámetros de condición física, médica y alimentaria, así como la importancia de la comunicación, el protocolo de servicio, la imagen personal, la urbanidad y las normas de cortesía en la prestación de servicios turísticos de calidad.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué se entiende por turismo?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'La compra exclusiva de paquetes vacacionales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+              texto: 'La actividad económica de los hoteles únicamente.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
+              texto:
+                'El conjunto de actividades que realizan las personas durante viajes y estancias.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'El traslado permanente de una persona a otro país.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Cuál es una característica fundamental del turismo?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Su carácter obligatorio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Su permanencia definitiva.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Su relación exclusiva con el trabajo.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Su carácter temporal.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Quién es considerado turista?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto:
+                'Un visitante que permanece al menos 24 horas en el lugar visitado y generalmente pernocta.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Una persona que solo viaja por motivos ilegales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto:
+                'Un visitante que permanece menos de 12 horas en un destino.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Una persona que se muda definitivamente a otra ciudad.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Cuál es la principal diferencia entre turista y excursionista?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'El medio de transporte utilizado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'El idioma que habla.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'El tiempo de permanencia y la pernoctación.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'La nacionalidad del viajero.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'En turismo, ¿qué es un consumidor?',
+          imagen: require('@/assets/actividad/imagen05.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+              texto: 'Un guía turístico certificado.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Un turista que siempre compra en la misma empresa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Una persona que trabaja en una agencia de viajes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+              texto: 'Una persona que adquiere un servicio turístico.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué diferencia al cliente del consumidor?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'El cliente nunca compra servicios turísticos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'El cliente mantiene una relación más frecuente o continua con la empresa.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'El consumidor siempre es extranjero.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'El cliente solo viaja por negocios.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Por qué es importante conocer al cliente en turismo?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Para evitar prestarle atención personalizada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Para imponerle un destino específico.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
+              texto:
+                'Para comprender sus necesidades, expectativas y nivel de satisfacción.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Para reducir la calidad del servicio.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Cuál de los siguientes es un factor cultural que influye en el comportamiento del consumidor turístico?',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'El nivel cultural.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La presión arterial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El clima del destino.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El itinerario del guía.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Qué son los grupos de referencia?',
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Lugares turísticos certificados.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Empresas que venden tiquetes aéreos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Personas o colectivos que influyen en las decisiones del turista.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Documentos legales de una agencia.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Cuál de los siguientes corresponde a un factor personal del consumidor turístico?',
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Normas del alojamiento.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Protocolo de bienvenida.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Edad y ciclo de vida.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Señalización turística.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Qué representa la motivación en el comportamiento del turista?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'La razón que impulsa a una persona a viajar.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'El precio final de un paquete turístico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El lugar donde se compra el servicio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La cantidad de equipaje permitido.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál es la primera etapa del proceso de decisión de compra turística?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Evaluación de alternativas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Forma de pago.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Comportamiento poscompra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reconocimiento de la necesidad.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
+        },
+
+        {
+          id: 13,
+          texto: '¿Qué ocurre durante la búsqueda de información?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'El turista deja de comparar opciones.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El turista cancela automáticamente el viaje.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto:
+                'El turista consulta datos sobre destinos, precios, servicios, reseñas o recomendaciones.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'El turista evalúa su satisfacción final.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué es el comportamiento poscompra?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'El proceso de solicitar documentos de identidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El momento de empacar la maleta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La etapa en la que se escoge el destino por primera vez.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La etapa en la que el turista evalúa si la experiencia cumplió sus expectativas.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
+
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Cuál de los siguientes es un factor interno que influye en la compra turística?',
+          imagen: require('@/assets/actividad/imagen05.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Familia.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Clase social.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Percepción.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Cultura.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
+        },
+
+        {
+          id: 16,
+          texto:
+            '¿Cuál de los siguientes es un factor externo que influye en la compra turística?',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Motivación personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Memoria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aprendizaje individual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Grupos de referencia y familia.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
+        },
+
+        {
+          id: 17,
+          texto: '¿Cómo se caracteriza un cliente indeciso o abdicador?',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Decide rápidamente sin pedir información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Evita el conflicto, duda y necesita acompañamiento para decidir.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Siempre busca imponer su autoridad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solo compra servicios de lujo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
+        },
+
+        {
+          id: 18,
+          texto:
+            '¿Cómo debe atenderse a un cliente jefe autoritario o comandante?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Presionándolo para que compre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evitando darle información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Con profesionalismo, seguridad, precisión y opciones claras.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Con respuestas inseguras y largas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
+        },
+
+        {
+          id: 19,
+          texto:
+            '¿Por qué es importante revisar la condición física del turista antes de una actividad?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Para excluirlo del servicio sin explicación',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Para definir si puede realizar caminatas, actividades de aventura o recorridos exigentes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Para cambiarle obligatoriamente el destino.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Para venderle únicamente servicios médicos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
+        },
+
+        {
+          id: 20,
+          texto:
+            '¿Qué aspectos hacen parte de los requerimientos de alimentación del turista?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tipo de fotografía que prefiere.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Marca de maleta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Alergias, intolerancias, diabetes, hipertensión, vegetarianismo o restricciones culturales y religiosas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Color favorito del turista.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente el componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Se sugiere revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
