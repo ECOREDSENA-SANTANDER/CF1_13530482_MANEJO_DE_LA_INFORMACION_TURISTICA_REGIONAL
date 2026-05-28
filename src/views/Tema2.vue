@@ -95,7 +95,7 @@
                       i.fas -
                       p.mb-0 Generar confianza y conexión.
 
-
+    separador
     #t_2_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
       h2 2.1  Partes y clasificación de las agujas de confección
 
@@ -117,35 +117,35 @@
           SlyderF(columnas="col-lg-6 col-xl-4")
             .tarjeta.bg4.p-4
               .row.justify-content-center.mb-3
-                .col-7.col-md-4
+                .col-7.col-md-4.col-lg-7
                   img(src='@/assets/curso/Tema2/1.svg' alt='')
               h4.text-center Conocer la audiencia
               p.text-center Identificar qué motiva, interesa y emociona al público objetivo para orientar el mensaje de manera efectiva.
 
             .tarjeta.bg4.p-4
               .row.justify-content-center.mb-3
-                .col-7.col-md-4
+                .col-7.col-md-4.col-lg-7
                   img(src='@/assets/curso/Tema2/2.svg' alt='')
               h4.text-center Crear un conflicto o problema
               p.text-center Plantear un obstáculo o situación a resolver que genere interés y mantenga la atención.
 
             .tarjeta.bg4.p-4
               .row.justify-content-center.mb-3
-                .col-7.col-md-4
+                .col-7.col-md-4.col-lg-7
                   img(src='@/assets/curso/Tema2/3.svg' alt='')
               h4.text-center Incluir emociones
               p.text-center Incorporar sentimientos como alegría, nostalgia o inspiración para lograr una conexión más profunda con la audiencia.
 
             .tarjeta.bg4.p-4
               .row.justify-content-center.mb-3
-                .col-7.col-md-4
+                .col-7.col-md-4.col-lg-7
                   img(src='@/assets/curso/Tema2/4.svg' alt='')
               h4.text-center Integrar lo visual
               p.text-center Utilizar imágenes, gráficos o videos que complementen la narrativa y refuercen la comprensión del mensaje.
 
             .tarjeta.bg4.p-4
               .row.justify-content-center.mb-3
-                .col-7.col-md-4
+                .col-7.col-md-4.col-lg-7
                   img(src='@/assets/curso/Tema2/5.svg' alt='')
               h4.text-center Cerrar con un mensaje claro
               p.text-center Finalizar con una idea concreta que invite a la reflexión o motive a la acción.

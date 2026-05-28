@@ -3,7 +3,7 @@ export default {
     Name:
       'Caracterización del visitante y comunicación en la atención turística',
     Description:
-      'Este componente formativo permite al aprendiz comprender los fundamentos de la atención al cliente en el contexto turístico, identificando los tipos de visitantes según sus necesidades y características, así como sus comportamientos y expectativas. Además, integra aspectos como la condición física, médica y alimentaria para brindar un servicio seguro y pertinente, fortalece las habilidades de comunicación mediante estrategias como storytelling (narración de historias), el enfoque Ciencia, Tecnología, Ingeniería, Artes y Matemáticas (STEAM) y el uso de historietas; y promueve la aplicación de protocolos de servicio, normas de imagen personal, urbanidad y cortesía, con el fin de garantizar una atención profesional y de calidad acorde con la normativa vigente. ',
+      'Este componente formativo permite comprender los fundamentos de la atención al cliente en el sector turístico, identificando los diferentes tipos de visitantes, sus necesidades, comportamientos y expectativas. Además, fortalece las habilidades de comunicación y servicio mediante estrategias como storytelling, enfoque STEAM e historietas, junto con la aplicación de protocolos, normas de cortesía e imagen personal, para brindar una atención profesional, segura y de calidad acorde con la normativa vigente. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
